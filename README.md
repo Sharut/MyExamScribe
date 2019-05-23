@@ -8,7 +8,8 @@ This application, built on top of Google assistant, is capable of interacting wi
 
 ## Technologies
 
-![](/screenshots/flow.png)
+![Screenshot 2019-05-23 at 10 46 23](https://user-images.githubusercontent.com/34167355/58238704-0cf4d500-7d48-11e9-95e4-5088ae6f812c.png)
+
 
 * **Dialogflow aka api.ai (Google assistant)** 
 
