@@ -1,7 +1,5 @@
 # MyExamScribe
 
-# MyExamScribe
-
 MyExamScribe is an effort to address and combat issues related to availability of reliable scribes for visually impaired and handicapped people during examinations. 
 
 This application, built on top of Google assistant, is capable of interacting with the user by reading instructions and questions, storing answers, marking questions for review, etc. Its reliability and ease of usability can make it a possible replacement for human scribes.
@@ -15,19 +13,19 @@ This application, built on top of Google assistant, is capable of interacting wi
 
 NLP based machine learning model to train different user intents (read question, write answer etc).
 
-![](/screenshots/Dialogflow.png)
+![Dialogflow](https://user-images.githubusercontent.com/34167355/58238941-72e15c80-7d48-11e9-8b2f-11c4cdbde50c.png)
 
 * **Firebase cloud database**
 
 NoSQL database to store question paper and candidate's responses.
 
-![](/screenshots/Database.png)
+![Database](https://user-images.githubusercontent.com/34167355/58239015-90162b00-7d48-11e9-95c1-e1c8f69d7553.png)
 
 * **Node.js Server** 
 
 Webhook (HTTP endpoint) to serve intents and fetch/mutate data from database.
 
-![](/screenshots/code.png)
+![code](https://user-images.githubusercontent.com/34167355/58239047-a15f3780-7d48-11e9-9186-56e34fa025d6.png)
 
 ## Functionality 
 
