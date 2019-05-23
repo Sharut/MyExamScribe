@@ -1,0 +1,77 @@
+{
+  "id": "77be5594-5055-41c0-aa28-08e9651c5480",
+  "name": "submitAnswer",
+  "auto": true,
+  "contexts": [
+    "roll_number"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "roll_number",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5274986a-19b8-494d-a202-df0382d9ad0c",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "text",
+          "value": "$text",
+          "prompts": [
+            {
+              "lang": "en-in",
+              "value": "I am listening, you can go ahead and answer."
+            },
+            {
+              "lang": "en",
+              "value": "I am listening, you can go ahead and answer."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "5a4f9fcb-3bcb-4c8f-9ec1-b98388032436",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en-in",
+              "value": "Please give the question number for which the answer is to be recorded"
+            },
+            {
+              "lang": "en",
+              "value": "Please give the question number for which the answer is to be recorded"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-in",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

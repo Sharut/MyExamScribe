@@ -1,0 +1,59 @@
+{
+  "id": "b4b324da-5acb-4daa-807a-63c4fd455132",
+  "name": "readQuestion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ff8b11e0-4b0b-4403-b449-f7098923f110",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en-in",
+              "value": "Please provide a specific question number"
+            },
+            {
+              "lang": "en-in",
+              "value": "Sorry, can you please give the question number"
+            },
+            {
+              "lang": "en",
+              "value": "Please provide a specific question number"
+            },
+            {
+              "lang": "en",
+              "value": "Sorry, can you please give the question number"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-in",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

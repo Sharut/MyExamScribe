@@ -1,0 +1,45 @@
+{
+  "id": "79e39401-ea0b-42b9-981e-b27e37d211bc",
+  "parentId": "146449e1-4525-41f6-b1ca-8d8977c5b07f",
+  "rootParentId": "146449e1-4525-41f6-b1ca-8d8977c5b07f",
+  "name": "signUp - yes",
+  "auto": true,
+  "contexts": [
+    "signUp-followup",
+    "roll_number"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "signUp.signUp-yes",
+      "affectedContexts": [
+        {
+          "name": "roll_number",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-in",
+          "speech": "Thanks, you are registered for the exam. Your roll number is #roll_number.roll. You can ask for exam instructions and questions now."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1558238994128,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -6,26 +6,25 @@ This application, built on top of Google assistant, is capable of interacting wi
 
 ## Technologies
 
-![Screenshot 2019-05-23 at 10 46 23](https://user-images.githubusercontent.com/34167355/58238704-0cf4d500-7d48-11e9-95e4-5088ae6f812c.png)
-
+![](/screenshots/flow.png)
 
 * **Dialogflow aka api.ai (Google assistant)** 
 
 NLP based machine learning model to train different user intents (read question, write answer etc).
 
-![Dialogflow](https://user-images.githubusercontent.com/34167355/58238941-72e15c80-7d48-11e9-8b2f-11c4cdbde50c.png)
+![](/screenshots/Dialogflow.png)
 
 * **Firebase cloud database**
 
 NoSQL database to store question paper and candidate's responses.
 
-![Database](https://user-images.githubusercontent.com/34167355/58239015-90162b00-7d48-11e9-95c1-e1c8f69d7553.png)
+![](/screenshots/Database.png)
 
 * **Node.js Server** 
 
 Webhook (HTTP endpoint) to serve intents and fetch/mutate data from database.
 
-![code](https://user-images.githubusercontent.com/34167355/58239047-a15f3780-7d48-11e9-9186-56e34fa025d6.png)
+![](/screenshots/code.png)
 
 ## Functionality 
 

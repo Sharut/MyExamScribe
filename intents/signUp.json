@@ -1,0 +1,70 @@
+{
+  "id": "146449e1-4525-41f6-b1ca-8d8977c5b07f",
+  "name": "signUp",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "signUp-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "roll_number",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ca148623-2fb1-43d3-b80f-20eeb25811ab",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "roll",
+          "value": "$roll",
+          "prompts": [
+            {
+              "lang": "en-in",
+              "value": "You can not proceed with the exam without roll number."
+            },
+            {
+              "lang": "en-in",
+              "value": "Please provide your roll number to proceed with the exam."
+            },
+            {
+              "lang": "en",
+              "value": "You can not proceed with the exam without roll number."
+            },
+            {
+              "lang": "en",
+              "value": "Please provide your roll number to proceed with the exam."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-in",
+          "speech": "Please confirm if you roll number is $roll?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thanks, you are registered for the exam. Your roll number is $roll. You can ask for exam instructions and questions now."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

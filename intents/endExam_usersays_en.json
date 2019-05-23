@@ -1,0 +1,68 @@
+[
+  {
+    "id": "2c17b8cc-f164-408d-9a4c-a4748249ac0b",
+    "data": [
+      {
+        "text": "end exam",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3c1bd568-81f0-41b9-afd6-7a3dc1218c62",
+    "data": [
+      {
+        "text": "end the exam now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0a0b1e62-8da6-4bc2-8789-10f7f7020e1a",
+    "data": [
+      {
+        "text": "please end the exam",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0a55285f-7c25-4256-9a09-87862d9b9887",
+    "data": [
+      {
+        "text": "I have completed the exam",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5ad8181a-345e-4817-b281-1dd0d21c917e",
+    "data": [
+      {
+        "text": "I will like to end the exam now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c37d9dad-1a37-47c1-9b3f-54452722745e",
+    "data": [
+      {
+        "text": "I would like to submit all my answers now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

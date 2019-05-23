@@ -1,0 +1,45 @@
+{
+  "id": "a7960b99-1c79-4415-9030-d9f95d503841",
+  "parentId": "146449e1-4525-41f6-b1ca-8d8977c5b07f",
+  "rootParentId": "146449e1-4525-41f6-b1ca-8d8977c5b07f",
+  "name": "signUp - no",
+  "auto": true,
+  "contexts": [
+    "signUp-followup",
+    "roll_number"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "signUp.signUp-no",
+      "affectedContexts": [
+        {
+          "name": "signUp-followup",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-in",
+          "speech": "Please provide your roll number again."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1558238984575,
+  "fallbackIntent": false,
+  "events": []
+}
